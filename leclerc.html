@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Charles Leclerc</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: "formula1-display-regular";
+            src: url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("woff"),
+                url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("opentype"),
+                url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("truetype");
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 2500
+            });
+
+            $('.carousel').carousel('cycle');
+        });
+    </script>
+</head>
+
+<body>
+    <div container-fluid>
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./pic/f1_logo.png" width="80" height="80" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <h4>Home </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team_menu.html">
+                            <h4>Teams </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./driver_menu.html">
+                            <h4>Drivers</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Jumbotron -->
+        <div class="jumbotron top">
+            <h1>Driver Profile</h1>
+            <p>
+                This is a driver profile of Season 2022 - 2023</p>
+        </div>
+        <!--Driver Profile-->
+        <div class="card">
+            <div class="card-body">
+                <h1 class="top left" style="line-height: 1.8; background-color: grey;">CHARLES <br>LECLERC</h1>
+                <img src="./pic/leclerc-driver.jpeg" class="round image">
+            </div>
+            <h1 class="top left">Biography</h1>
+            <hr>
+            <p class="top left">
+                Born in the Mediterranean idyll of Monaco, Leclerc arrived in F1 on a tidal wave of expectation. <br>
+
+                Practically peerless on his way to the GP3 and Formula 2 crowns, he showcased a dazzling array of skills
+                from scorching pole positions, commanding victories – even when his car caught fire twice at Silverstone
+                – to an ability to muscle his way through the pack. Winning back-to-back championships also taught
+                Leclerc how to handle pressure, another useful tool in the big pond of Formula 1 racing.<br>
+
+                Stepping up to F1 in 2018, Leclerc showed flashes of ballistic pace on Saturdays and racing brilliance
+                on Sundays, dragging his Sauber beyond its limits – and earning himself a money-can’t-buy race seat at
+                Ferrari for 2019, stepping into the shoes of the Scuderia’s last world champion, Kimi Raikkonen.<br>
+
+                There he immediately put the cat among the proverbial pigeons, unafraid to go wheel-to-wheel with
+                established number one, Sebastian Vettel. A maiden F1 victory at Spa was followed by another a week
+                later on Ferrari’s hallowed home turf of Monza. The tifosi had found another new hero – who then became
+                the first man to out-score Vettel over a season with the Scuderia, a feat he repeated in crushing
+                fashion the following year.<br>
+
+                Out of the car, Leclerc is modest and thoughtful - but then he is on his own very personal mission. This
+                exciting young talent is racing for his late father Herve and his friend and mentor Jules Bianchi, the
+                F1 driver who died in 2015.<br>
+
+                On the evidence so far, he is doing them both proud.<br>
+                <hr>
+                <!--Team,Nationality,DOB,Joinded-->
+            <div class="row justify-content-center">
+                <div class="row left right">
+                    <div class="col-3">
+                        <h3 style="color: gray;">TEAM<br></h3>
+                        <h4 style="color: red;">Ferrari</h4>
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">COUNTRY</h3>
+                        <span style="text-align: center;">Monaco</span>
+                        <img class="imagecountry" style="margin-left: 35px;" src="./pic/monaco-flag.jpeg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">DATE OF<br> BIRTH<br></h3>
+                        <h4 style="color: red; ">16 OCT 1997</h4>
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">NUMBER<br></h3>
+                        <h4 style="color: red; margin-left: 50px;">&nbsp;16</h4>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--Record-->
+            <h1 class="top center">Record</h1>
+            <p class="center">
+                <b>Podiums :</b> <span class="text-info"> 13</span><br>
+                <b>Points :</b><span class="text-info"> 560</span> <br>
+                <b>Grands Prix entered :</b><span class="text-info"> 81</span><br>
+                <b>World Championships :</b><span class="text-info"> N/A</span><br>
+                <b>Highest race finish :</b> <span class="text-info"> 1 (x2)</span><br>
+                <b>Highest grid position :</b><span class="text-info"> 1</span><br>
+            </p>
+
+        </div>
+        <!--Footer-->
+        <footer class="container-fluid bg-4 text-center">
+            <p>F1 Information Website made by <a>LATTAPOL SALAEWONG TCT# 31</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

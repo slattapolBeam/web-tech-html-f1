@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Daniel Ricciardo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: "formula1-display-regular";
+            src: url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("woff"),
+                url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("opentype"),
+                url("https://candyfonts.com/wp-data/2018/10/26/11543/Formula1-Regular_web_0.ttf") format("truetype");
+        }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 2500
+            });
+
+            $('.carousel').carousel('cycle');
+        });
+    </script>
+</head>
+
+<body>
+    <div container-fluid>
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./pic/f1_logo.png" width="80" height="80" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <h4>Home </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team_menu.html">
+                            <h4>Teams </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./driver_menu.html">
+                            <h4>Drivers</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Jumbotron -->
+        <div class="jumbotron top">
+            <h1>Driver Profile</h1>
+            <p>
+                This is a driver profile of Season 2022 - 2023</p>
+        </div>
+        <!--Driver Profile-->
+        <div class="card">
+            <div class="card-body">
+                <h1 class="top left" style="line-height: 1.8; background-color: grey;">DANIEL <br>RICCIARDO</h1>
+                <img src="./pic/daniel-driver.jpeg" class="round image">
+            </div>
+            <h1 class="top left">Biography</h1>
+            <hr>
+            <p class="top left">
+                The self-styled “Honey Badger” is fuzzy on the outside and feisty on the inside. Drivers beware because
+                behind Ricciardo’s laidback persona and big grin is a razor-sharp racer with a bite.<br>
+
+                The Australian combines all-out speed with impressive race craft. Never afraid to push to the limits if
+                it means pulling off a pass, Ricciardo is a proven race-winner, capable of consistently finishing at the
+                business end of the championship table given the right machinery.<br>
+
+                A regular podium-finisher in his days with Red Bull, Ricciardo has christened the steps around the world
+                with a dousing of Aussie culture – the ‘Shoey’ – as he quaffed champagne from a soggy racing boot. Yes
+                it’s goofy, but the trademark celebration illustrates why he is loved for his sense of humour but never
+                underestimated on track.<br>
+
+                His career’s next move to Renault’s works team in 2019 brought fresh challenges for the Perth pilot, but
+                failed to deliver his dream of following Jack Brabham and Alan Jones as the next world champion from
+                Down Under and he moved on to McLaren for 2021.<br>
+
+                There he has found a tough young team mate in Lando Norris, but has nevertheless returned to winning
+                ways. Whatever happens next, Ricciardo is sure to keep on smiling.<br>
+                <hr>
+                <!--Team,Nationality,DOB,Joinded-->
+            <div class="row justify-content-center">
+                <div class="row left right">
+                    <div class="col-3">
+                        <h3 style="color: gray;">TEAM<br></h3>
+                        <h4 style="color: red;">McLaren</h4>
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">COUNTRY</h3>
+                        <span style="text-align: center;">Australia</span>
+                        <img class="imagecountry" style="margin-left: 35px;" src="./pic/aus-flag.jpeg" alt="">
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">DATE OF<br> BIRTH<br></h3>
+                        <h4 style="color: red; ">01 JUL 1989</h4>
+                    </div>
+                    <div class="col-3">
+                        <h3 style="color: gray;">NUMBER<br></h3>
+                        <h4 style="color: red; margin-left: 50px;">&nbsp;&nbsp;3</h4>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--Record-->
+            <h1 class="top center">Record</h1>
+            <p class="center">
+                <b>Podiums :</b> <span class="text-info"> 32</span><br>
+                <b>Points :</b><span class="text-info"> 1274</span> <br>
+                <b>Grands Prix entered :</b><span class="text-info"> 210</span><br>
+                <b>World Championships :</b><span class="text-info"> N/A</span><br>
+                <b>Highest race finish :</b> <span class="text-info"> 1 (x8)</span><br>
+                <b>Highest grid position :</b><span class="text-info"> 1</span><br>
+            </p>
+
+        </div>
+        <!--Footer-->
+        <footer class="container-fluid bg-4 text-center">
+            <p>F1 Information Website made by <a>LATTAPOL SALAEWONG TCT# 31</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
